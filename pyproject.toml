@@ -1,0 +1,11 @@
+[build-system]
+requires = ["maturin>=0.12,<0.13"]
+build-backend = "maturin"
+
+[project]
+name = "rustytable"
+version = "0.1.0"
+description = "A Rust library for pretty tables in Python"
+authors = [{name = "Jahidul Hasan", email = "jhhemalusa@gmail.com"}]
+license = "MIT"
+dependencies = []
